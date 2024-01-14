@@ -2,7 +2,7 @@ import os
 from art import logo
 
 print(logo + "\n")
-print("Welcome to the secret suction program. \n")
+print("Welcome to the secret auction program. \n")
 
 def winner(contestant):
     highest_bid = 0
@@ -15,7 +15,6 @@ def winner(contestant):
             if b > highest_bid:
                 highest_bid = b
         else:
-            if b > highest_bid:
                 highest_bid = b
 
     os.system("clear")   
