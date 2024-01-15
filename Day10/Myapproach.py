@@ -4,7 +4,6 @@ def calculation(x,y,z):
     global result
     if y == '+':
         result = x + z
-        return f"{x} + {z} = {result}"
     elif y == '-':
         result = x - z
         print(f"{x} - {z} = {result}")
