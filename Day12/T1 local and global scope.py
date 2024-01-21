@@ -26,7 +26,7 @@ if gam_level < 5:
 
 print(new_enemy)
 
-# if i put this within a function then it wont work beacuse then you have to look fir scope.'
+# if i put this within a function then it wont work beacuse then you have to look f0r scope.'
 
 gam_level = 3
 def play():
