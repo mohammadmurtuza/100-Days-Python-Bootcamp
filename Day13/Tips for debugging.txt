@@ -1,2 +1,4 @@
 7) take a break - you might see the bug when feeling fresh.
-8) ask a friend
+8) ask a friend.
+9) Run often - run your code often to see if its working accordingly.
+10) Ask stackoverflow - when you have no other choice.
