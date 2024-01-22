@@ -25,9 +25,7 @@ def game():
     score = 0
     account_a = random_account()
     account_b = random_account()
-
     again_game = True
-
     while again_game:
 
         account_a = account_b
@@ -45,14 +43,14 @@ def game():
         guess = input("Who do you think has more follower's, Type A or B. ").lower()
         f_a = account_a["follower_count"]
         f_b = account_b["follower_count"]
-        iscorrect = check(guess,f_a,f_b)
+        is_correct = check(guess,f_a,f_b)
 
         os.system("clear")
         print(logo)
 
 
 
-        if iscorrect:
+        if is_correct:
             score +=1
             print(f"that's correct, Current Score: {score}")
         else:
