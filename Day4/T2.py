@@ -2,6 +2,7 @@
 #list is a data structure
 fruits = ["apple","Grape","orange","pineapple"] #syntax
 print(fruits)
+print(len(fruits))
 # order in the list is as you enter it in like below you entered apple first so you get apple at index [0]. and for coders numbers start at 0. 
 print(fruits[0]) #item in list at index 0
 print(fruits[-1]) # use -negative index to start from from end.
